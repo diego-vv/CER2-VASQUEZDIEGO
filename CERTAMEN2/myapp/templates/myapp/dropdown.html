@@ -1,0 +1,11 @@
+<div class="dropdown d-flex justify-content-center">
+    <a class="btn btn-secondary dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Departamento
+    </a>
+    
+    <ul class="dropdown-menu">
+      {% for entidad in Entidad %}
+      <li><a class="dropdown-item" href="?id_entidad={{entidad.id}}">{{entidad.nombre}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>

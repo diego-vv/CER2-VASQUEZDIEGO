@@ -1,0 +1,22 @@
+
+#imagen{
+    left : 0;
+    top :0;
+    width :15vw;
+    height: auto;
+   
+}
+#titulo{
+    margin-left: 15vw;
+    margin-top:2.5vw;
+}
+#comunicar{
+
+    margin :1vw;
+    border: 0.2vw #EDEDED solid;
+}
+#entidades{
+    margin:0;
+
+    color:#BDBDBD
+}

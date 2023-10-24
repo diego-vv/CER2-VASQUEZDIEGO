@@ -1,0 +1,27 @@
+{% load static %}
+{% include 'myapp/base.html' %}
+{% block content %}
+<div class="container-fluid">
+    <div class="row d-flex justify-content-center">
+        {% for comunicado in Comunicado %}
+
+        <div id="comunicar" class="col-3">
+            
+            <h3>{{comunicado.titulo}}</h3>
+            <p id="entidades">{{comunicado.entidad}}<br></p>
+            <p>{{comunicado.detalle}}</p>
+        </div>
+        
+        <div id="comunicar" class="col-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, amet reprehenderit. Quam eaque, explicabo nam nostrum ex molestiae consequatur libero.</p>
+        </div>
+
+        {% endfor %}
+    </div>
+
+
+
+
+</div>
+
+{% endblock %}
